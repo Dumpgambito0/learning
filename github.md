@@ -22,3 +22,17 @@ git config --global user.email "<email>"
 
     git status
 
+4) Hacer fotos de ficheros.
+
+    - git add <nombre_del_fichero>
+    - git add .  -> Todos los ficheros ( no es recomendable)
+
+5) Salvar foto de los ficheros.
+
+    git commit -m "<mensaje>"
+
+    git commit: Este comando se utiliza para confirmar los cambios realizados en el área de preparación y agregarlos al historial de versiones del repositorio.
+
+    La opción -m se utiliza para proporcionar un mensaje de confirmación en línea con el comando. El mensaje entre comillas ("Mi primer commit") es un comentario que describe brevemente los cambios realizados en este commit. Es una buena práctica escribir mensajes descriptivos y significativos para que otros desarrolladores (o tú mismo en el futuro) puedan entender fácilmente el propósito del commit.
+
+    Cuando se realiza una fotografía, git le asigna un HASH ( código único de identificación).
