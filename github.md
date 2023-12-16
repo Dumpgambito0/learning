@@ -1,5 +1,6 @@
-GITHUB
+GITHUB    https://www.youtube.com/watch?v=3GymExBkKjE&t=2537s
 ---------------------------------------------------------------
+Punto de retorno : 00:57:48 | 10 - "git checkout" y "git reset"
 
 - Control de Versiones Distribuidos (DVCS)
 
@@ -36,3 +37,8 @@ git config --global user.email "<email>"
     La opción -m se utiliza para proporcionar un mensaje de confirmación en línea con el comando. El mensaje entre comillas ("Mi primer commit") es un comentario que describe brevemente los cambios realizados en este commit. Es una buena práctica escribir mensajes descriptivos y significativos para que otros desarrolladores (o tú mismo en el futuro) puedan entender fácilmente el propósito del commit.
 
     Cuando se realiza una fotografía, git le asigna un HASH ( código único de identificación).
+
+6) Ver los commits realizados:
+
+    git log
+
