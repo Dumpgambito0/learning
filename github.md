@@ -39,7 +39,7 @@ git status
 
 ### **5. Salvar foto de los ficheros.**
 
-git commit -m "<mensaje>"
+git commit -m " < mensaje > "
 
 git commit: Este comando se utiliza para confirmar los cambios realizados en el área de preparación y agregarlos al historial de versiones del repositorio.
 
@@ -49,4 +49,29 @@ Cuando se realiza una fotografía, git le asigna un HASH ( código único de ide
 
 ### **6. Ver los commits realizados:**
 
-git log
+#### **_git log_**
+
+![imagenGitLog](./images/gitLog.JPG)
+
+#### **_git log --graph_**
+
+![imagenGitLogGraph](./images/gitLogGraph.JPG)
+
+#### **_git log --graph --pretty=oneline_**
+
+![imagenGitPrettyOneline](./images/gitPrettyOneline.JPG)
+
+### \*\*7. Volver a un estado anterior sin haber hecho commit.
+
+git checkout
+
+### **Alias**
+
+```javascript
+git config --global alias.<nombreDelAlias> "log --graph --onelilne --decorate --all"
+```
+
+1. git --global alias.tree "log --graph --decorate --all --oneline"
+2. git tree
+
+![imagenUsoalias](./images/gitAlias.JPG)
