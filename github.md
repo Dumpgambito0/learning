@@ -1,6 +1,6 @@
 ## GITHUB https://www.youtube.com/watch?v=3GymExBkKjE&t=2537s
 
-Punto de retorno : 00:57:48 | 10 - "git checkout" y "git reset"
+Punto de retorno : 1:10:36 - parametro diff
 
 - Control de Versiones Distribuidos (DVCS)
 
@@ -61,7 +61,7 @@ Cuando se realiza una fotografía, git le asigna un HASH ( código único de ide
 
 ![imagenGitPrettyOneline](./images/gitPrettyOneline.JPG)
 
-### \*\*7. Volver a un estado anterior sin haber hecho commit.
+### **7. Volver a un estado anterior sin haber hecho commit**
 
 git checkout
 
@@ -75,3 +75,25 @@ git config --global alias.<nombreDelAlias> "log --graph --onelilne --decorate --
 2. git tree
 
 ![imagenUsoalias](./images/gitAlias.JPG)
+
+### **8.Ignorar ficheros**
+
+Tenemosq que crear un fichero llamado .gitignore y a#adir los ficheros que queremos ignorar.
+
+### **9.Ver lo que ha variado sin hacer la foto**
+
+```javascript
+git diff
+```
+
+### **10. Mostrar con configuracion**
+
+```javascript
+git config --list
+```
+
+![captura pantalla git config --list](./images/config__list.JPG)
+
+### **11. Estados de GIT**
+
+![captura Estados de trabajo de GIT](./images/estadosGit.JPG)
