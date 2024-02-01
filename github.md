@@ -110,8 +110,16 @@ El parametros del comando:
 
 ## **13. Subir ficheros a github**
 
+La primera vez:
+
 ```script
 git push -u origin main
+```
+
+Después:
+
+```script
+git push
 ```
 
 ## **14. Descargar del remoto el repositorio**
@@ -121,3 +129,18 @@ git pull
 ```
 
 Antes de comenzar en cualquier equipo de trabajo y tirar lineas, lo primero es descargar con pull para obtener todo los cambios de lo compa#eros.
+
+## **15. Acceso a la ayuda de git**
+
+Dos maneras:
+
+1. Para sacar la ayuda en el terminal
+   ```script
+       git <comando> -h
+   ```
+   ![imagen ayuda en consola](./images/ayudaConsola.JPG)
+2. Para sacar la ayuda en el navegador
+   ```script
+       git help <comando>
+   ```
+   ![imagen ayuda web](./images/ayudaWeb.JPG)
