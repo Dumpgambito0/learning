@@ -144,3 +144,7 @@ Dos maneras:
        git help <comando>
    ```
    ![imagen ayuda web](./images/ayudaWeb.JPG)
+
+## \*\*16. Branches (Ramas)
+
+![imagen principales comandos para git branch](./images/comandosRamas.JPG)
