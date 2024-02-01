@@ -97,3 +97,27 @@ git config --list
 ### **11. Estados de GIT**
 
 ![captura Estados de trabajo de GIT](./images/estadosGit.JPG)
+
+## **12. Configurar el origen remoto**
+
+```javascript
+git remote add origin https://github.com/Dumpgambito0/learning.git
+```
+
+El parametros del comando:
+
+#### ***https://github.com/usuario_github/nombre_repositorio>***
+
+## **13. Subir ficheros a github**
+
+```script
+git push -u origin main
+```
+
+## **14. Descargar del remoto el repositorio**
+
+```script
+git pull
+```
+
+Antes de comenzar en cualquier equipo de trabajo y tirar lineas, lo primero es descargar con pull para obtener todo los cambios de lo compa#eros.
