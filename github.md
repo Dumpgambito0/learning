@@ -145,6 +145,14 @@ Dos maneras:
    ```
    ![imagen ayuda web](./images/ayudaWeb.JPG)
 
-## \*\*16. Branches (Ramas)
+## **16. Branches (Ramas)**
 
 ![imagen principales comandos para git branch](./images/comandosRamas.JPG)
+
+## **Crear una nueva rama en el remoto**
+
+```script
+git push -u origin Dump
+```
+
+El parametro -u equivale a **_--set-upstream_**.
