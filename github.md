@@ -149,10 +149,17 @@ Dos maneras:
 
 ![imagen principales comandos para git branch](./images/comandosRamas.JPG)
 
-## **Crear una nueva rama en el remoto**
+## **17. Crear una nueva rama en el remoto**
 
 ```script
 git push -u origin Dump
 ```
 
 El parametro -u equivale a **_--set-upstream_**.
+
+## **18. Fusión de ramas**
+
+Cuando se fusionan dos ramas puede haber dos opciones.
+
+- **_Fastforward_** Fusión automática sin conflictos.
+- **_Manual Merge_** Para hacer a fusión hay que resolver los conflictos de duplicidad.
